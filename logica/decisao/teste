@@ -1,0 +1,14 @@
+
+String faixaEtariaToString(FaixaEtaria faixa) {
+  if (faixa == FaixaEtaria.bebe) {
+    return "Você é um bebe";
+  } else if (faixa == FaixaEtaria.crianca) {
+    return "Você é uma criança";
+  } else if (faixa == FaixaEtaria.adolescente) {
+    return "Você é um adolescente";
+  } else if (faixa == FaixaEtaria.adulto) {
+    return "Você é adulto";
+  } else {
+    return "Você é um idoso";
+  }
+}
