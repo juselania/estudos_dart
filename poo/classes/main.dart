@@ -1,8 +1,8 @@
-import 'departamento.dart';
+import 'cachorro.dart';
 
 main() {
-  var departamento =
-      Departamento(nome: 'Joana Lucia', idade: 32, sexo: 'f', setor: 'RH');
+  var cachorro =
+      Cachorro(nome: 'Cacau', idade: 1, sexo: 'femnino');
   print(
-      "A funcionária ${departamento.nome} tem ${departamento.idade} do sexo ${departamento.sexo}, pertence ao depatamento do ${departamento.setor}");
+      "O animal ${cachorro.nome} tem ${cachorro.idade} anos e pertence ao sexo ${cachorro.sexo}");
 }

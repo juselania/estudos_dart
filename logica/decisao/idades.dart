@@ -48,6 +48,6 @@ String faixaEtariaToString(FaixaEtaria faixa) {
       break;
 
     default:
-      return "Idade Avançada!";
+      throw Exception("Faixa etária inválida!");
   }
 }
