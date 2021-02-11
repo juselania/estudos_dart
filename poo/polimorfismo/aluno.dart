@@ -1,4 +1,4 @@
-import 'dart:ffi';
+import 'pessoa.dart';
 
 class Aluno extends Pessoa {
   String _nome;
@@ -14,14 +14,8 @@ class Aluno extends Pessoa {
     return _nome;
   }
 
+
   double retornaValorMensalidade() {
     return 13.30;
-  }
-}
-
-class Pessoa {
-  
-  double retornaValorMensalidade() {
-    return 10.30;
   }
 }
