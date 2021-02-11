@@ -1,8 +1,8 @@
-import '../encapsulamento/aluno.dart';
+import 'aluno.dart';
 
 main() {
   Aluno aluno = Aluno();
 
-  aluno.retornaValorMensalidade();
- 
+  var mensalidade = aluno.retornaValorMensalidade();
+  print(mensalidade);
 }
