@@ -1,9 +1,9 @@
 |Dia|Estudos|Tempo|
 | -------- | ----------------- | -------- |
 |1| Abstração e Switch case | 02:40 |
-|2| Tomada de Decisão (exercírcios) | 02: 25  |
-|3| | |
-|4| ||
+|2| Tomada de Decisão - If else (exercírcios) | 02: 25  |
+|3| @override + exercícios de Herança| 03:40 |
+|4| Polimorfismo| |
 |5|  | |
 |6| |  |
 |7|  | |
