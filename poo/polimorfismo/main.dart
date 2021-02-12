@@ -2,7 +2,8 @@ import 'aluno.dart';
 
 main() {
   Aluno aluno = Aluno();
-
-  var mensalidade = aluno.retornaValorMensalidade();
-  print(mensalidade);
+  aluno.setNome("João");
+  aluno.setNascimento();
+  var curso = aluno.getIdade();
+  print(curso);
 }
