@@ -3,7 +3,7 @@
 |1| Abstração e Switch case | 02:40 |
 |2| Tomada de Decisão - If else (exercírcios) | 02: 25  |
 |3| @override + exercícios de Herança| 03:40 |
-|4| Polimorfismo| |
+|4| Polimorfismo| 02:40 |
 |5|  | |
 |6| |  |
 |7|  | |
