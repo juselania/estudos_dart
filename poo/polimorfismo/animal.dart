@@ -1,10 +1,22 @@
-import 'pessoa.dart';
+main() {
+  var aluno = Animal();
+  aluno.setNome("Cacau");
+  aluno.setNascimento(DateTime.parse('2021-09-12'));
+  print(aluno.getIdade());
+}
 
-class Aluno extends Pessoa {
+
+class Cachorro {
+  double retornaValorConsulta() {
+    return 100.1;
+  }
+}
+
+class Animal extends Cachorro {
   String _nome;
   DateTime _nascimento;
 
-  Aluno();
+  Animal();
 
   int _calculateAge(DateTime birthDate) {
     DateTime currentDate = DateTime.now();
@@ -45,5 +57,10 @@ class Aluno extends Pessoa {
 
   DateTime getNascimento() {
     return _nascimento;
+  }
+
+  @override
+  double retornaValorConsulta() {
+    return 28.33;
   }
 }
