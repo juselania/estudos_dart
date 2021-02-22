@@ -1,6 +1,3 @@
-main() {
-  Mouse mouse = Mouse("Mouse otico");
-}
 
 class Produto {
   String nomeLoja;

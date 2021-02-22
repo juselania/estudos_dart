@@ -1,8 +1,15 @@
-import 'aluno.dart';
+import 'produto.dart';
 
 main() {
-  Aluno aluno = Aluno();
-  aluno.setNome("João");
-  aluno.setNascimento(DateTime.parse('1989-09-09'));
-  print(aluno.getIdade());
+  List<Produto> listaProdutos = List<Produto>();
+  Mouse mouse = Mouse('logi');
+  Livro livro = Livro('Pequeno Principe');
+
+  listaProdutos.add(mouse);
+  listaProdutos.add(livro);
+
+  for(int i=0; i < listaProdutos.length; i++){
+    print(listaProdutos[i].descricao);
+  }
+
 }
