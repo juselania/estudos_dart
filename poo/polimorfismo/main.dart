@@ -1,15 +1,22 @@
 import 'produto.dart';
 
 main() {
-  List<Produto> listaProdutos = List<Produto>();
+  List<Produto> carrinho = List<Produto>();
   Mouse mouse = Mouse('logi');
-  Livro livro = Livro('Pequeno Principe');
+  Mouse('Dell');
+  Mouse('Lenovo');
 
-  listaProdutos.add(mouse);
-  listaProdutos.add(livro);
+  Livro livro = Livro(
+    'Pequeno Principe'
+  );
+   Livro(
+    'Milagre da Manhã'
+  );
 
-  for(int i=0; i < listaProdutos.length; i++){
-    print(listaProdutos[i].descricao);
+  carrinho.add(mouse);
+  carrinho.add(livro);
+
+  for (int i = 0; i < carrinho.length; i++) {
+    print(carrinho[i].descricao);
   }
-
 }

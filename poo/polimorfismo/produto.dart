@@ -34,14 +34,14 @@ class Produto {
 class Mouse extends Produto {
   String tipo;
 
-  Mouse(descricao) : super(descricao.descricao);
+  Mouse(descricao) : super(descricao);
 
   String getDescricao() {
     return descricao + tipo;
   }
 }
 
-class Livro extends Mouse {
+class Livro extends Produto {
   String autor;
 
   Livro(descricao) : super(descricao.descricao);
