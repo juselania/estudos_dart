@@ -45,7 +45,7 @@ class Livro extends Produto {
     return 'Produto de Informática';
   }
 
-  String getDescricao(){
+  String getDescricao() {
     return descricao + autor;
   }
 }
