@@ -1,4 +1,3 @@
-
 class Produto {
   String nomeLoja;
   double preco;
@@ -34,17 +33,17 @@ class Produto {
 class Mouse extends Produto {
   String tipo;
 
-  Mouse(descricao) : super(descricao);
+  Mouse(descricao, this.tipo) : super(descricao);
 
   String getDescricao() {
-    return descricao + tipo;
+    return descricao +  tipo;
   }
 }
 
 class Livro extends Produto {
   String autor;
 
-  Livro(descricao) : super(descricao.descricao);
+  Livro(descricao) : super(descricao);
 
   String setDescricao(String descricao) {
     return 'Produto de Informática';
