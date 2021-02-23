@@ -49,13 +49,3 @@ class Livro extends Produto {
     return descricao + autor;
   }
 }
-
-/*
-Crie uma classe “Main” que irá simular a compra de um cliente de vários
-mouses e livros, deve haver apenas um vector/arraylist na classe “Main” para
-armazenamento de todos os livros e mouses. Esse vector/arraylist deve se
-chamar “carrinho” que simula o carrinho de compras de produtos variados de
-um cliente em um e-commerce. Insira nesse “carrinho” vários mouses e livros
-e depois chame o método “getDescrição” de todos os objetos presentes no
-vector/arraylist. Para o usuário do carrinho saber as informações dos produtos
-em seu carrinho */
