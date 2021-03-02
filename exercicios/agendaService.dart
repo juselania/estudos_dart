@@ -1,12 +1,9 @@
 class AgendaService {
-  var _nomes = ['Ana', 'Marcos', 'Júnior'];
+  var _nome = ['Ana', 'Marcos', 'Júnior'];
   var _sexo = ['f', 'm'];
   var _idade = [33, 31, 28];
 
-  incluir(String nome, String sexo, int idade) {
-    var agenda = AgendaService();
-
-  }
+  incluir(String nome, String sexo, int idade) {}
 
   remover(String nome) {
     print("Deletado");
