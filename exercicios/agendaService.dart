@@ -1,7 +1,7 @@
+import 'cadastro.dart';
+
 class AgendaService {
-  var _nome = ['Ana', 'Marcos', 'Júnior'];
-  var _sexo = ['f', 'm'];
-  var _idade = [33, 31, 28];
+  List<Cadastro> listaCadastro = List<Cadastro>();
 
   incluir(String nome, String sexo, int idade) {}
 
