@@ -11,7 +11,11 @@ main() {
     print(itens[i].getNome());
   }
 
-  var itenscontato = itens[1];
-  contato.remove(itenscontato);
+  var itenscontato = itens[0];
+  contato.remover(itenscontato);
+
+  for(int i=0; i< itenscontato.length;  i++ ){
+    print(itenscontato[0].remove);
+  }
 }
 
