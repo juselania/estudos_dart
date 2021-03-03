@@ -12,8 +12,8 @@ class AgendaService {
     listaCadastro.remove(cadastros);
   }
 
-  List<AgendaService> getAll() {
-   // return cadastros;
-    throw UnimplementedError();
+  List<Cadastro> getAll() {
+    return listaCadastro;
+    //  throw UnimplementedError();
   }
 }

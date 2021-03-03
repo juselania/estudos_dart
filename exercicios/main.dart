@@ -8,6 +8,9 @@ main() {
 
   var itens = contato.getAll();
   for(int i=0; i<itens.length; i++){
-    print(itens[1]);
+    print(itens[i].getNome());
   }
+
+  var itenscontato = itens[1];
+  contato.remove(itenscontato);
 }
