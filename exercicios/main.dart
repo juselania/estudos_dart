@@ -1,15 +1,13 @@
 import 'agendaService.dart';
+import 'cadastro.dart';
 
-main(){
+main() {
+  AgendaService contato = AgendaService();
 
-  /*
-  AgendaService agendaService = AgendaService();
-  agendaService.incluir('marta', 'f', 27);
+  contato.incluir('Marta', 'f', 25);
 
-  print(agendaService);
-  */
-
-  
- 
+  var itens = contato.getAll();
+  for(int i=0; i<itens.length; i++){
+    print(itens[1]);
+  }
 }
- 
