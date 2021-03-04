@@ -24,4 +24,8 @@ class Cadastro {
   void setIdade(int idade) {
     _idade = idade;
   }
+
+  int getIdade() {
+    return _idade;
+  }
 }
