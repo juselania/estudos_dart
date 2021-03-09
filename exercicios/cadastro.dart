@@ -28,4 +28,6 @@ class Cadastro {
   int getIdade() {
     return _idade;
   }
+
+  
 }

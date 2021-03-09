@@ -1,5 +1,4 @@
 import 'agendaService.dart';
-import 'cadastro.dart';
 
 main() {
   AgendaService contato = AgendaService();

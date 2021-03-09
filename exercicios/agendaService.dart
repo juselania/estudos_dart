@@ -11,6 +11,13 @@ class AgendaService {
   void remover(Cadastro cadastros) {
     listaCadastro.remove(cadastros);
   }
+  
+  Cadastro getByNome(String nome){
+    var itensNome = listaCadastro.where((elemento){
+      return elemento.getNome == _nome
+    });
+  }
+
 
   List<Cadastro> getAll() {
     return listaCadastro;
