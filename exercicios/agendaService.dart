@@ -14,8 +14,9 @@ class AgendaService {
   
   Cadastro getByNome(String nome){
     var itensNome = listaCadastro.where((elemento){
-      return elemento.getNome == _nome
-    });
+      return elemento.nome == nome;
+    }).first;
+    return itensNome;
   }
 
 

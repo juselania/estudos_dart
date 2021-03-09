@@ -1,16 +1,16 @@
 class Cadastro {
-  String _nome;
+  String nome;
   String _sexo;
   int _idade;
 
-  Cadastro(this._nome, this._sexo, this._idade);
+  Cadastro(this.nome, this._sexo, this._idade);
 
   void setNome(String nome) {
-    _nome = nome;
+    nome = nome;
   }
 
   String getNome() {
-    return _nome;
+    return nome;
   }
 
   void setSexo(String sexo) {
@@ -29,5 +29,10 @@ class Cadastro {
     return _idade;
   }
 
-  
+@override
+  String toString() {
+    // TODO: implement toString
+    return "Seu nome é $nome";
+  }
+
 }
